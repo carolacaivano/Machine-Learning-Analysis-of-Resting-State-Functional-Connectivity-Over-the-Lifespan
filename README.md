@@ -1,1 +1,8 @@
-# Machine-Learning-Analysis-of-Resting-State-Functional-Connectivity-Over-the-Lifespan
+### Machine-Learning-Analysis-of-Resting-State-Functional-Connectivity-Over-the-Lifespan
+This project aims to study the change in brain connectivity among healthy adults. Brain connectivity alterations have been associated with disorders such as Alzheimer’s disease, Parkinson’s disease and schizophrenia. Studying brain connectivity patterns can help to find biomarkers for predicting disease progression or treatment response.
+In this study, we used resting-state magnetoencephalography (MEG) recordings from 618 subjects (ages 18–88 years) with normal physical and cognitive health from the Cam-CAN repository.
+We studied how functional connectivity changes over the lifespan and we used MEG features to predict brain and cognitive ageing. Before extracting features from the MEG recordings we built for each subject a connectivity matrix in each frequency band (delta, theta, alpha and beta) using as connectivity metric the Weighted Phase-Lag Index.
+We decided to focus our analysis on three different sets of features: connectivity values, graph metrics and topological features. These three sets of features were used to study brain and cognitive ageing. Regarding the study of cognitive ageing, we examined three specific behavioural tasks completed by the subjects: the Cattell test, the Benton Faces test and the Motor
+Learning task.
+For both the brain and cognitive age prediction we tested a range of machine learning algorithms focusing on support vector regression. In our study on brain age prediction, we achieved an MAE of 10 years in predicting age and we identified a correlation between age and functional connectivity features.
+In cognitive age prediction, incorporating MEG features did not contribute compared to using age alone, which served as the baseline prediction for cognitive ageing.
